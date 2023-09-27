@@ -1,6 +1,8 @@
-import 'package:imc_calc/pessoa.dart' as pessoa;
-import 'package:imc_calc/io.dart' as io;
+import 'package:imc_calc/pessoa.dart';
+import 'package:imc_calc/io.dart';
 
 void main(List<String> arguments) {
-  print('Hello world!');
+  var pessoa = Pessoa();
+  print('Olá! Bem vindo à calculadora IMC. Peço que digite sua altura: ');
+  print('Agora seu peso: ');
 }
