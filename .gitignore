@@ -1,0 +1,30 @@
+# https://dart.dev/guides/libraries/private-files
+# Arquivos e diretórios específicos do Dart
+.dart_tool/
+.pub/
+/build/
+.packages
+
+# Arquivos e diretórios específicos do Flutter
+.idea/
+.vscode/
+android/
+ios/
+.build/
+.pubspec.lock
+
+# Arquivos de configuração e cache do Android Studio
+.gradle/
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+/.idea/modules.xml
+/.idea/dart.xml
+/.idea/misc.xml
+/.idea/vcs.xml
+/.idea/gradle.xml
+/.idea/caches
+
+# Arquivos gerados pelo Flutter
+.dart_tool/
+flutter_tools/
